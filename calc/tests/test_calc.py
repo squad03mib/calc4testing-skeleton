@@ -16,6 +16,16 @@ class TestCalc(unittest.TestCase):
         reply = tested_app.get("/calc/sum?m=3&n=5").get_json()
         self.assertEqual(reply["result"], "8")
 
+    def test_sub1(self):
+        tested_app = app.test_client()
+        reply = tested_app.get("/calc/sub?m=3&n=5").get_json()
+        self.assertEqual(reply["result"], "-2")
+    
+    def test_mul1(self):
+        tested_app = app.test_client()
+        reply = tested_app.get("/calc/mul?m=3&n=-5").get_json()
+        self.assertEqual(reply["result"], "-15")
+
     def test_div1(self):
         tested_app = app.test_client()
         reply = tested_app.get("/calc/div?m=3&n=0").get_json()

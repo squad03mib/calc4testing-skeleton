@@ -21,6 +21,45 @@ class TestAdd(unittest.TestCase):
         result = c.sum(-1, 2)
         self.assertEqual(result, 1)
 
+
+    def test_substract_integers_positive(self):
+        result = c.subtract(1, 2)
+        self.assertEqual(result, -1)
+
+    def test_substract_integers_negative(self):
+        result = c.subtract(-1, -2)
+        self.assertEqual(result, 1)
+
+    def test_substract_integers_pos_neg(self):
+        result = c.subtract(1, -2)
+        self.assertEqual(result, 3)
+
+    def test_substract_integers_neg_pos(self):
+        result = c.subtract(-1, 2)
+        self.assertEqual(result, -3)
+    
+    
+    def test_multiply_integers_positive(self):
+        result = c.multiply(6, 3)
+        self.assertEqual(result, 18)
+
+    def test_multiply_integers_negative(self):
+        result = c.multiply(-6, -2)
+        self.assertEqual(result, 12)
+
+    def test_multiply_integers_pos_neg(self):
+        result = c.multiply(6, -2)
+        self.assertEqual(result, -12)
+
+    def test_multiply_integers_neg_pos(self):
+        result = c.multiply(-6, 2)
+        self.assertEqual(result, -12)
+
+    def test_multiply_zero(self):
+        result = c.multiply(0, 2)
+        self.assertEqual(result, 0)
+
+
     def test_divide_integers_positive(self):
         result = c.divide(6, 3)
         self.assertEqual(result, 2)
