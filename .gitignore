@@ -34,3 +34,14 @@ calc/views/__pycache__/calc.cpython-39.pyc
 calc/views/__pycache__/home.cpython-39.pyc
 .coverage
 __pycache__/locustfile.cpython-39.pyc
+htmlcov/calc___init___py.html
+htmlcov/calc_app_py.html
+htmlcov/calc_calculator___init___py.html
+htmlcov/calc_calculator_calculator_py.html
+htmlcov/calc_tests___init___py.html
+htmlcov/calc_tests_test_calc_py.html
+htmlcov/calc_tests_test_calculator_py.html
+htmlcov/calc_tests_test_home_py.html
+htmlcov/calc_views___init___py.html
+htmlcov/calc_views_calc_py.html
+htmlcov/calc_views_home_py.html
