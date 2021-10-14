@@ -33,3 +33,4 @@ calc/views/__pycache__/__init__.cpython-39.pyc
 calc/views/__pycache__/calc.cpython-39.pyc
 calc/views/__pycache__/home.cpython-39.pyc
 .coverage
+__pycache__/locustfile.cpython-39.pyc
