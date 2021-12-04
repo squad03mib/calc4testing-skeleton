@@ -1,7 +1,8 @@
+
 # ASE Calc Microservice
 
+[![squad03mib](https://circleci.com/gh/squad03mib/calc4testing-skeleton/tree/circleci-project-setup.svg?style=svg)](https://app.circleci.com/pipelines/github/squad03mib/calc4testing-skeleton)
 [![Coverage Status](https://coveralls.io/repos/github/PaolinoRossi/calc4testing-skeleton/badge.svg?branch=master)](https://coveralls.io/github/PaolinoRossi/calc4testing-skeleton?branch=master)
-[![Build Status](https://app.travis-ci.com/PaolinoRossi/calc4testing-skeleton.svg?branch=master)](https://app.travis-ci.com/PaolinoRossi/calc4testing-skeleton)
 
 ### Setup the environment
 
