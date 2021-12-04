@@ -42,6 +42,8 @@ jobs:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
           command: tox -e py39
+      - coveralls/upload:
+          path_to_lcov: ./coverage/lcov/project.lcov
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
