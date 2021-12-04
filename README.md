@@ -1,7 +1,7 @@
 
 # ASE Calc Microservice
 
-[![squad03mib](https://circleci.com/gh/squad03mib/calc4testing-skeleton/tree/circleci-project-setup.svg?style=svg)](https://app.circleci.com/pipelines/github/squad03mib/calc4testing-skeleton)
+[![squad03mib](https://circleci.com/gh/squad03mib/calc4testing-skeleton.svg?style=svg)](https://app.circleci.com/pipelines/github/squad03mib/calc4testing-skeleton)
 [![codecov](https://codecov.io/gh/squad03mib/calc4testing-skeleton/branch/master/graph/badge.svg?token=GPAY43AOAH)](https://codecov.io/gh/squad03mib/calc4testing-skeleton)
 
 ### Setup the environment
