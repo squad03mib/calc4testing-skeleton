@@ -35,6 +35,10 @@ jobs:
       - python/install-packages:
           pkg-manager: pip
           # app-dir: ~/project/package-directory/  # If you're requirements.txt isn't in the root directory.
+      
+      - run:
+          name: redis
+          command: docker run  -it node:10.1  npm -v
       - run:
           name: redis
           command: docker run -d -p 6379:6379 redis
